@@ -1,0 +1,73 @@
+body {
+    background-color: #1a1a1a; /* Cor de fundo escura */
+    color: #e0e0e0; /* Cor do texto principal */
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: grid;
+    justify-content: center;
+}
+
+h2 {
+    color: #ff0000; /* Vermelho vibrante para títulos */
+    border-bottom: 2px solid #ff0000;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+
+form {
+    background-color: #333; /* Fundo do formulário mais escuro */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #e0e0e0;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #555;
+    background-color: #444; /* Fundo dos campos de entrada */
+    color: #e0e0e0;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #ff0000; /* Vermelho para o botão de salvar */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #cc0000; /* Vermelho mais escuro no hover */
+}
+
+a {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 12px 20px;
+    color: #ff0000; /* Vermelho para o link de cancelar */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
