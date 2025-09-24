@@ -5,19 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário Atividade 7</title>
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="icon" href="/conexao/src/favicons/icon.ico">
 </head>
 <body>
     <h2>Cadastro de Usuário</h2>
     <form method="post" action="salvar.php">
         <label>Nome:</label><br>
-        <input name="nome" required><br><br>
+        <input name="nome" required placeholder="Digite seu Nome"><br><br>
 
         <label>E-mail:</label><br>
-        <input type="email" name="email" required><br><br>
+        <input type="email" name="email" required placeholder="Digite seu Email"><br><br>
 
         <button type="submit">Salvar</button>
+         <p><a href="listar.php">Ver cadastrados</a></p>
     </form>
 
-    <p><a href="listar.php">Ver cadastrados</a></p>
+   
 </body>
 </html>
